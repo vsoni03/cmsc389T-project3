@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Asap", sans-serif;
+    font-family: "Montserrat";
     scroll-behavior: smooth;
 }
 
@@ -45,27 +45,27 @@ header {
     text-align: center;
     padding: 14px 16px;
 }
+ 
 
+/* nagivation */
 .topnav a {
     float: right;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 35px;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
+/* .topnav a:hover {
+    color:red;
+} */
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+/* .topnav a.active {
     background-color: #878C8F;
-    color: white;
-}
+    color: red;
+} */
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {

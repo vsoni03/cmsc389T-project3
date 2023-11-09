@@ -1,15 +1,24 @@
 # cmsc388T-web-template
 
 ## Color Family
-Light yellow: #FAF8D4
+Greyish blue: #394a51
 
-Almond: #EBDCCB
+Morning blue: #7fa99b
 
-Dun: #C3BAAA
+Papaya Whip: #fbf2d5
 
-Taupe Gray: #91818A
+Taupe Gray: #f3c486e6
 
-Rose quartz: #B2A3B5
+BlueDarkish: #1c4f6a;
+
+Topaz: #fdc57b;
+
+
 
 ## CSS
-.img -> where you can adjust image size
+.img -> changed it to have a border radius of 40 percent and changed to make it circular 
+
+
+## Changes Made 
+
+I switched the color scheme to blue, adjusted the header format, and added an underline effect to the navigation bar when clicked when hovering over it. 

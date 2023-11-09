@@ -15,6 +15,9 @@ body {
   padding-right: 20px;
 }
 
+.logo2 {
+  height: 0.1rem;
+}
 
 
 header {
@@ -23,14 +26,14 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #655560;
+  background: #1c4f6a;
   padding: 2%;
   text-align: center;
 
 }
 
 .panel {
-  background-color: #655560;
+  background-color: #1c4f6a;
   color: #FCF7FF;
 
   width: 100%;
@@ -50,7 +53,7 @@ header {
 
 footer {
   display: flex;
-  background-color: #655560;
+  background-color: #1c4f6a;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -79,22 +82,7 @@ footer {
 
 }
 
-a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
 
-a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: white;
-  background-color: transparent;
-}
 
 .rightFooterr {
   color: #655560;
@@ -120,6 +108,7 @@ h1 {
 
   margin-left: 22%;
   margin-right: 2%;
+  border-radius: 40%;
 }
 
 #logo {
@@ -167,7 +156,7 @@ h3 {
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color: #655560;
+  background-color: #1c4f6a;
 }
 
 /* Style the links inside the navigation bar */
@@ -182,8 +171,8 @@ h3 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 /* Add an active class to highlight the current page */
@@ -205,14 +194,12 @@ h3 {
 
 .right {
   display: flex;
-  gap: 20px;
-  margin-right: 6%;
 }
 
 .same-line {
   display: flex;
   justify-content: space-between;
-  background-color: #655560;
+  background-color: #1c4f6a;
 
 }
 

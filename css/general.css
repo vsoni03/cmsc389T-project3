@@ -1,0 +1,32 @@
+/* nagivation bar will be on the same line */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1c4f6a;
+  padding: 1%;
+  text-align: center;
+
+}
+
+.same-line {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c4f6a;
+}
+
+.logo2 {
+  height: 2rem;
+}
+
+.link:hover{
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
