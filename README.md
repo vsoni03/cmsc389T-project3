@@ -23,6 +23,5 @@ Topaz: #fdc57b;
 1) Added github 
 2) added linkedin
 3) add info 
-
-## Changes Made 
-I switched the color scheme to blue, adjusted the header format, and added an underline effect to the navigation bar when clicked when hovering over it. 
+4) deployed: https://vsoni03.github.io/cmsc389T-project3/
+Overall) I switched the color scheme to blue, adjusted the header format, and added an underline effect to the navigation bar when clicked when hovering over it. 
