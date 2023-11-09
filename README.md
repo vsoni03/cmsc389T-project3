@@ -11,6 +11,12 @@ Taupe Gray: #f3c486e6
 
 BlueDarkish: #1c4f6a;
 
+Green;
+
+Yellow;
+
+Pink;
+
 Topaz: #fdc57b;
 
 
