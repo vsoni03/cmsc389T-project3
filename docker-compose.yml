@@ -7,6 +7,21 @@ services:
       - app-network
   
   #the nginx configuration is given below
+version: '3'
+
+services:
+  nodejs:
+    #fill out the configuration here
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: node-web-app
+    container_name: node-web-app
+    restart: unless-stopped
+    networks:
+      - app-network
+  
+  #the nginx configuration is given below
   #the website will run on localhost:80 
   webserver:
     image: nginx:mainline-alpine
@@ -28,7 +43,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /Users/vrutisoni/Desktop/personal/cmsc389T-project3
       o: bind
 
 networks:
